@@ -1,0 +1,27 @@
+name: pytorch_course
+channels:
+- anaconda
+- soumith
+- pytorch
+dependencies:
+- python=3.6.5
+- pip
+- pandas=0.23.0
+- matplotlib=2.2.2
+- scipy=1.1.0
+- numpy=1.14.3
+- seaborn=0.8.1
+- scikit-learn=0.19.1
+- pillow=5.1.0
+- luigi=2.7.5
+- tqdm=4.23.0
+- requests=2.18.4
+- jupyterlab=0.32.1
+- opencv=3.4.1
+- theano=1.0.2
+- nltk=3.3.0
+- pytorch=0.4.1
+- torchvision=0.2.1
+- pip
+- pip:
+  - imbalanced-learn==0.3.3
